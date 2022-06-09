@@ -26,9 +26,22 @@
     }
 
     .menu-item {
-        font-size: 16px;   
+        font-size: 16px;
+        color: var(--menu-text);
+        text-transform: uppercase;  
+    }
+
+    .main {
+        background-color: var(--main-backgr);
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .title {
         font-size: 30px;
+        color: var(--main-text);
+        text-align: center;
+        word-spacing: 100vw;
     }
