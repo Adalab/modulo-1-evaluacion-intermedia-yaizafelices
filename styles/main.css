@@ -45,3 +45,11 @@
         text-align: center;
         word-spacing: 100vw;
     }
+
+    @media all and (min-width: 768px) {
+        .header {
+            margin: 20px 30px 20px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
